@@ -31,6 +31,7 @@ function addListeners() {
                 correctAnswer();
               }else{
                 incorrectAnswer();
+                e.target.style.opacity ="0";
               }
         })
       })
