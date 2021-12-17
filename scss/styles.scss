@@ -1,0 +1,22 @@
+
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+    #guesses{
+        display: flex;
+        flex-direction: row;
+
+        .guess{
+            height: 100px;
+            width: 100px;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+    }
+}
